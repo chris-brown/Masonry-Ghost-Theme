@@ -8,6 +8,7 @@ var gulp = require('gulp'),
 gulp.task('sass', function () {
   gulp.src('./src/sass/**/*.scss')
     .pipe(plugins.sass().on('error', plugins.sass.logError))
+    .pipe(plugins.concatCss("screen.css"))
     .pipe(nano())
     .pipe(gulp.dest('./assets/css'));
 });

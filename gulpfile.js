@@ -12,4 +12,9 @@ gulp.task('sass', function () {
     .pipe(gulp.dest('./assets/css'));
 });
 
+//Watch task
+gulp.task('watch',function() {
+    gulp.watch('./src/sass/**/*.scss', ['sass']);
+});
+
 gulp.task('default', ['sass']);

@@ -188,8 +188,10 @@ $font_31: 'sans-serif';
 //original selectors
 //.masonry .post:hover .post-image img, .masonry .post:focus .post-image img
 %extend_10 {
-	-webkit-transform: scale(1.05);
+	-webkit-transform: scale(1.5);
 	//Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
-	transform: scale(1.05);
+	transform: scale(1.5);
 	opacity: 0.7;
+    // https://www.binarymoon.co.uk/2014/02/fixing-css-transitions-in-google-chrome/
+    //-webkit-transform: translateZ(0);
 }

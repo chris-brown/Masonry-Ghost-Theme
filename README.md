@@ -12,16 +12,21 @@ I use this theme for my blog, which can be viewed [here](http://blog.zirafon.org
 
 1\. Clone Repository to themes folder ``` /content/themes/ ```
 ``` git clone https://github.com/chris-brown/Masonry-Ghost-Theme.git ```
+
 2\. Install dev dependencies
 ```javascript
 npm install
 ```
+
 3\. Compile and minify sass
 ```javascript
 npm run init
 ```
+
 4\. Start your Ghost application
+
 5\. Navigation to /ghost/settings/general/ and select **masonry** from the Theme drop down.
+
 6\. Save and refresh your blog and the theme should now be loaded.
 
 ## Copyright & License
